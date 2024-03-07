@@ -1,5 +1,0 @@
----
-"ezberlenen-parola": patch
----
-
-Başlangıç
