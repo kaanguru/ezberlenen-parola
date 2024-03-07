@@ -11,7 +11,7 @@
     "dev": "vitest --watch",
     "test": "vitest run",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
-    "publish": "pnpm run lint && pnpm run test && pnpm run build && changesets publish"
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changesets publish"
   },
   "keywords": [
     "passwords",
