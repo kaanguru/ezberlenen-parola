@@ -2,7 +2,7 @@ name: Publish
 on:
   push:
     branches:
-      - main # Veya projenizin ana dalı neyse
+      - main
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 jobs:
   publish:
