@@ -23,7 +23,7 @@ jobs:
         run: pnpm run build
       - name: Create Release Pull Request or Publish
         id: changesets
-        uses: NPM_TOKEN
+        uses: PERSONAL_ACCESS_TOKEN
         with:
           publish: pnpm run publish
         env:
