@@ -8,7 +8,8 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "test": "vitest"
+    "dev": "vitest --watch",
+    "test": "vitest run"
   },
   "keywords": [
     "passwords",
