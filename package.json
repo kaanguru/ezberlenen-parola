@@ -1,32 +1,35 @@
 {
   "name": "ezberlenen-parola",
   "version": "0.0.3",
+  "license": "LGPL-3.0",
   "description": "🔑 Generate Turkish Password Sentences",
   "repository": {
     "type": "git",
     "url": "https://github.com/kaanguru/ezberlenen-parola.git",
     "homepage": "https://www.cemkaan.com"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc",
-    "dev": "vitest --watch",
-    "test": "vitest run",
-    "ci": "pnpm run lint && pnpm run test && pnpm run build"
-  },
   "keywords": [
     "passwords",
     "Generator"
   ],
   "author": "Cem Kaan Kösalı",
-  "license": "LGPL-3.0",
+  "authors": [
+    "Cem Kaan Kösalı"
+  ],
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "devDependencies": {
     "slugify": "^1.6.6",
     "tsup": "^8.0.2",
     "typescript": "^5.4.2",
     "vitest": "^1.3.1"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --minify",
+    "lint": "tsc",
+    "dev": "vitest --watch",
+    "test": "vitest run",
+    "ci": "pnpm run lint && pnpm run test && pnpm run build"
   }
 }
