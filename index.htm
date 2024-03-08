@@ -9,13 +9,11 @@
     <h1 id="parola"></h1>
     <button onclick="refreshParola()">Yenile</button>
     <script type="module">
-        import { parolaUret } from "https://esm.run/ezberlenen-parola";
+      import { parolaUret } from "https://esm.run/ezberlenen-parola";
       document.addEventListener("DOMContentLoaded", (event) => {
         const guvenliParola = parolaUret();
         document.getElementById("parola").innerText = guvenliParola;
       });
-
-    </script>
     </script>
   </body>
 </html>
