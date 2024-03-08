@@ -7,8 +7,13 @@
   <body>
     <div id="parola"></div>
     <script type="module">
-      import { parolaUret } from "https://esm.run/ezberlenen-parola";
-      // parola inner text {parolaUret()}
+        import { parolaUret } from "https://esm.run/ezberlenen-parola";
+      document.addEventListener("DOMContentLoaded", (event) => {
+        const guvenliParola = parolaUret();
+        document.getElementById("parola").innerText = guvenliParola;
+      });
+
+    </script>
     </script>
   </body>
 </html>
