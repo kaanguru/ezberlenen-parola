@@ -7,12 +7,10 @@
   </head>
   <body>
     <h1 id="parola"></h1>
-    <button onclick="refreshParola()">Yenile</button>
+    <button onclick="()=>{document.getElementById("parola").innerText = parolaUret()}">Yenile</button>
     <script type="module">
       import { parolaUret } from "https://esm.run/ezberlenen-parola";
-      const refreshParola = () => {
-        document.getElementById("parola").innerText = parolaUret();
-      };
+
       const guvenliParola = parolaUret();
       document.getElementById("parola").innerText = guvenliParola;
     </script>
