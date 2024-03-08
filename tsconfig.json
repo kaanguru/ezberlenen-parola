@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES2020", // or "es6" if you want to use ES6 features
-    "module": "es2020", // or "es2015" for ES6 modules
+    "target": "ES2020",
+    "module": "es2020",
     "lib": ["ES2020"], // Include DOM types and ESNext features
     "strict": true, // Enable all strict type-checking options
     "esModuleInterop": true, // Enables interop between CommonJS and ES Modules
     "skipLibCheck": true, // Skip type checking of declaration files
     "forceConsistentCasingInFileNames": true, // Ensures consistent casing in file names
-    "moduleResolution": "node16", // Resolve modules like Node.js
     "isolatedModules": true, // Ensures that each file can be safely transpiled without relying on other imports
     "noEmit": false // Allows TypeScript to emit files
   }
