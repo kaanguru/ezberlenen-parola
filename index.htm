@@ -11,8 +11,7 @@
     <script type="module">
       import { parolaUret } from "https://esm.run/ezberlenen-parola";
       const refreshParola = () => {
-        const guvenliParola = parolaUret();
-        document.getElementById("parola").innerText = guvenliParola;
+        document.getElementById("parola").innerText = parolaUret();
       };
       const guvenliParola = parolaUret();
       document.getElementById("parola").innerText = guvenliParola;
