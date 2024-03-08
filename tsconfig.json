@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5", // or "es6" if you want to use ES6 features
-    "module": "esnext", // or "es2015" for ES6 modules
+    "target": "es6", // or "es6" if you want to use ES6 features
+    "module": "es2015", // or "es2015" for ES6 modules
     "lib": ["dom", "esnext"], // Include DOM types and ESNext features
     "strict": true, // Enable all strict type-checking options
     "esModuleInterop": true, // Enables interop between CommonJS and ES Modules
