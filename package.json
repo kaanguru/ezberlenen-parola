@@ -2,6 +2,11 @@
   "name": "ezberlenen-parola",
   "version": "0.0.2",
   "description": "🔑 Generate Turkish Password Sentences",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaanguru/ezberlenen-parola.git",
+    "homepage": "https://www.cemkaan.com"
+  },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
