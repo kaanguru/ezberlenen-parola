@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/bamboo.css" />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ezberlenen-parola@0.1.1/dist/index.global.js
+    "
+    ></script>
+    <title>Parola Üret</title>
+  </head>
+  <body>
+    <div id="parola"></div>
+    <script>
+      document.addEventListener("DOMContentLoaded", (event) => {
+        const guvenliParola = parolaUret();
+        document.getElementById("parola").innerText = guvenliParola;
+      });
+    </script>
+  </body>
+</html>
