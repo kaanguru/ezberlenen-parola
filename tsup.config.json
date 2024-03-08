@@ -1,1 +1,1 @@
-{ "module": "es6", "target": "es6", "format": ["cjs", "esm", "iife"], "dts": true, "minify": true, "lib": ["dom", "es6"], "noEmit": false, "outDir": "./dist" }
+{ "format": ["cjs", "esm", "iife"], "dts": true, "minify": true, "outDir": "./dist" }
