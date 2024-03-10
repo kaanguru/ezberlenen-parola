@@ -6,6 +6,18 @@
 
 [![install size](https://packagephobia.com/badge?p=ezberlenen-parola)](https://packagephobia.com/result?p=ezberlenen-parola) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/kaanguru/ezberlenen-parola/main.yml) ![GitHub language count](https://img.shields.io/github/languages/count/kaanguru/ezberlenen-parola) ![NPM Type Definitions](https://img.shields.io/npm/types/ezberlenen-parola)
 
+---
+
+Just add it to your project
+
+`pnpm add ezberlenen-parola`
+
+Then Generate Turkish password
+
+`parolaUret();`
+
+---
+
 ## Güvenli ve kullanımı kolay unutulmayan şifreler oluşturun
 
 Bu araç, Türkçe'de kolay hatırlanabilen cümlelerden yola çıkarak çok güvenli şifreler oluşturmanıza olanak tanır.
