@@ -98,7 +98,7 @@ Sadece "gergin" bir "deniz aslanının" nasıl "gideceğini" hayal edin. Aklın�
 
 Ayrıca Ezberlenen Parola'yı  kolaylıkla ezberleyebilirsiniz.
 
-[Gergin Deniz Aslanı](https://www.youtube.com/watch?v=owkdOWdEMU8)
+![Gergin Deniz Aslanı seyret](https://www.youtube.com/watch?v=owkdOWdEMU8)
 
 #### Şaşkın geyik gezecek
 
