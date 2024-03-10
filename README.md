@@ -6,7 +6,7 @@
 
 ## Güvenli ve kullanımı kolay unutulmayan şifreler oluşturun
 
-    Bu araç, Türkçe'de kolay hatırlanabilen cümlelerden yola çıkarak çok güvenli şifreler oluşturmanıza olanak tanır.
+Bu araç, Türkçe'de kolay hatırlanabilen cümlelerden yola çıkarak çok güvenli şifreler oluşturmanıza olanak tanır.
 
 ![örnek Gergin-deniz-aslani-gidiyor](img/Gergin-deniz-aslani-gidiyor.webp)
 
@@ -28,8 +28,6 @@ Türkiye'deki erkeklerin tuttukları takımları parola olarak kullanma alışka
 
 ![g4l4t4s4r4y](img/g4l4t4s4r4y.webp)
 
-**Güç puanı (1-5)**: 2
-
 ##### Kırılması için gereken süre
 
 - saatte 100 deneme: 8 gün
@@ -37,28 +35,30 @@ Türkiye'deki erkeklerin tuttukları takımları parola olarak kullanma alışka
 - saniyede 10 bin deneme: 2 saniye
 - saniyede 10 milyar deneme: bir saniyeden az
 
+**Güç puanı (1-5)**: 2
+
+---
+
 #### 64l4t454r4y
 
-daha fazla sayı koymanız sonucu değiştirmiyor
-
-![g4l4t4s4r4y](img/g4l4t4s4r4y.webp)
+daha fazla sayı koymanız sonucu değiştirmiyor.
 
 **Güç puanı (1-5)**: 2
+
+---
 
 #### 6Sc3ecnZ
 
 Belki de daha karışık olması için bir şifre üretici kullanmanın iyi bir fikir olduğunu düşünüyorsunuz.
 
-![6Sc3ecnZ](img/6Sc3ecnZ.webp)
-
-**Güç puanı (1-5)**: 3
-
-##### Kırılması için gereken süre
+##### 6Sc3ecnZ parolasının Kırılması için gereken süre
 
 - saatte 100 deneme: yüzyıllar
 - saniyede 10 deneme: 4 ay
 - saniyede 10 bin deneme: 3 saat
 - saniyede 10 milyar deneme: bir saniyeden az
+
+**Güç puanı (1-5)**: 3
 
 #### XPH7S@Vq
 
@@ -68,7 +68,7 @@ noktalama işaretleri eklesiniz bile sonuç değişmeyecek
 
 **Güç puanı (1-5)**: 3
 
-##### Kırılması için gereken süre
+##### "XPH7S@Vq" Kırılması için gereken süre
 
 - saatte 100 deneme: yüzyıllar
 - saniyede 10 deneme: 4 ay
@@ -83,7 +83,9 @@ Not almaya gerek kalmaz. **Ezlerlenmesi kolaydır!**
 
 #### Gergin-deniz-aslani-gidiyor
 
-![XPH7S@Vq](img/XPH7S@Vq.webp)
+Sadece "gergin" bir "deniz aslanının" nasıl "gideceğini" hayal edin. Aklınıza yerleşecek.
+
+![kacan deniz aslani](img/kacan-deniz-aslani.jpg)
 
 **Güç puanı (1-5)**: 5
 
