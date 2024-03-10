@@ -14,13 +14,11 @@ Bu araç, Türkçe'de kolay hatırlanabilen cümlelerden yola çıkarak çok gü
 
 #### Galatasaray
 
-![galatasaray taraftarları](img/galatasaray.webp)
-
 **Uyarı**: Bu çok yaygın bir paroladır.
 
 Türkiye'deki erkeklerin tuttukları takımları parola olarak kullanma alışkanlığı vardır. **Bu çok kötü bir fikirdir.**
 
-**Güç puanı (1-5)**: 1
+![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-1-red)
 
 ---
 
@@ -35,7 +33,7 @@ Türkiye'deki erkeklerin tuttukları takımları parola olarak kullanma alışka
 - saniyede 10 bin deneme: 2 saniye
 - saniyede 10 milyar deneme: bir saniyeden az
 
-**Güç puanı (1-5)**: 2
+![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-2-red)
 
 ---
 
@@ -43,7 +41,7 @@ Türkiye'deki erkeklerin tuttukları takımları parola olarak kullanma alışka
 
 daha fazla sayı koymanız sonucu değiştirmiyor.
 
-**Güç puanı (1-5)**: 2
+![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-2-red)
 
 ---
 
@@ -58,7 +56,9 @@ Belki de daha karışık olması için bir şifre üretici kullanmanın iyi bir 
 - saniyede 10 bin deneme: 3 saat
 - saniyede 10 milyar deneme: bir saniyeden az
 
-**Güç puanı (1-5)**: 3
+![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-3-yellow)
+
+---
 
 #### XPH7S@Vq
 
@@ -66,7 +66,9 @@ noktalama işaretleri eklesiniz bile sonuç değişmeyecek
 
 ![XPH7S@Vq](img/XPH7S@Vq.webp)
 
-**Güç puanı (1-5)**: 3
+![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-3-yellow)
+
+---
 
 ##### "XPH7S@Vq" Kırılması için gereken süre
 
@@ -74,6 +76,8 @@ noktalama işaretleri eklesiniz bile sonuç değişmeyecek
 - saniyede 10 deneme: 4 ay
 - saniyede 10 bin deneme: 3 saat
 - saniyede 10 milyar deneme: bir saniyeden az
+
+![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-3-yellow)
 
 ### Ezberlenen Parola Örnekleri
 
@@ -85,9 +89,11 @@ Not almaya gerek kalmaz. **Ezlerlenmesi kolaydır!**
 
 Sadece "gergin" bir "deniz aslanının" nasıl "gideceğini" hayal edin. Aklınıza yerleşecek.
 
-![kacan deniz aslani](img/kacan-deniz-aslani.jpg)
+![kacan deniz aslani](img/kacan-deniz-aslani.webp)
 
-**Güç puanı (1-5)**: 5
+![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
+
+---
 
 ##### "Gergin-deniz-aslani-gidiyor" parolasının Kırılması için gereken süre
 
@@ -100,13 +106,17 @@ Ayrıca Ezberlenen Parola'yı  kolaylıkla ezberleyebilirsiniz.
 
 ![Gergin Deniz Aslanı seyret](https://www.youtube.com/watch?v=owkdOWdEMU8)
 
+![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
+
 #### Şaşkın geyik gezecek
 
 Eğer şifre alanı türkçe karakterlere izin veriyorsa Ezberlenen Parola'nın kırılması olanaksızdır.
 
 ![Şaşkın geyik gezecek](<img/Şaşkın geyik gezecek.webp>)
 
-**Güç puanı (1-5)**: 5
+![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
+
+---
 
 ##### "Şaşkın geyik gezecek" Kırılması için gereken süre
 
@@ -115,11 +125,15 @@ Eğer şifre alanı türkçe karakterlere izin veriyorsa Ezberlenen Parola'nın 
 - saniyede 10 bin deneme: yüzyıllar
 - saniyede 10 milyar deneme: yüzyıllar
 
+![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
+
 #### Düzensiz mavi alakarga i̇zleyecek
 
  veya uluslar-arası uyumlu
 
 #### Sadik-gunes-baligi-ve-kapsamli-guvercin-gitti
+
+![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
 
 gibi cümleler, hem hatırlaması kolay hem de kırılması zor şifreler oluşturmanızı sağlar.
 
