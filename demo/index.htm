@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title>Parola Uret Example</title>
-    <link rel="stylesheet" href="https://unpkg.com/bamboo.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/bamboo.css" /> fast style-->
   </head>
   <body>
+    <button onclick="location.reload()">Parola Üret</button>
     <h1 id="parola"></h1>
-    <p>Yeni parola için <button onclick="location.reload()">Sayfayı Yenile</button></p>
 
     <script type="module">
       import { parolaUret } from "https://esm.run/ezberlenen-parola";
-      document.getElementById("parola").innerText = parolaUret();
+      document.getElementById("parola").innerText = parolaUret({ standart: true, araliklar: "-" });
     </script>
   </body>
 </html>

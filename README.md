@@ -4,16 +4,120 @@
 
 [![install size](https://packagephobia.com/badge?p=ezberlenen-parola)](https://packagephobia.com/result?p=ezberlenen-parola) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/kaanguru/ezberlenen-parola/main.yml) ![GitHub language count](https://img.shields.io/github/languages/count/kaanguru/ezberlenen-parola) ![NPM Type Definitions](https://img.shields.io/npm/types/ezberlenen-parola)
 
-**Güvenli ve kullanımı kolay unutulmayan şifreler oluşturun**
+## Güvenli ve kullanımı kolay unutulmayan şifreler oluşturun
 
-Bu araç, Türkçe'de kolay hatırlanabilen cümlelerden yola çıkarak çok güvenli şifreler oluşturmanıza olanak tanır.
+    Bu araç, Türkçe'de kolay hatırlanabilen cümlelerden yola çıkarak çok güvenli şifreler oluşturmanıza olanak tanır.
 
-**Örneğin:**
-**Düzensiz mavi alakarga i̇zleyecek**
+![örnek Gergin-deniz-aslani-gidiyor](img/Gergin-deniz-aslani-gidiyor.webp)
+
+### Sıradan Örnekler
+
+#### Galatasaray
+
+![galatasaray taraftarları](img/galatasaray.webp)
+
+**Uyarı**: Bu çok yaygın bir paroladır.
+
+Türkiye'deki erkeklerin tuttukları takımları parola olarak kullanma alışkanlığı vardır. **Bu çok kötü bir fikirdir.**
+
+**Güç puanı (1-5)**: 1
+
+---
+
+#### G4l4t4s4r4y
+
+![g4l4t4s4r4y](img/g4l4t4s4r4y.webp)
+
+**Güç puanı (1-5)**: 2
+
+##### Kırılması için gereken süre
+
+- saatte 100 deneme: 8 gün
+- saniyede 10 deneme: 34 dakika
+- saniyede 10 bin deneme: 2 saniye
+- saniyede 10 milyar deneme: bir saniyeden az
+
+#### 64l4t454r4y
+
+daha fazla sayı koymanız sonucu değiştirmiyor
+
+![g4l4t4s4r4y](img/g4l4t4s4r4y.webp)
+
+**Güç puanı (1-5)**: 2
+
+#### 6Sc3ecnZ
+
+Belki de daha karışık olması için bir şifre üretici kullanmanın iyi bir fikir olduğunu düşünüyorsunuz.
+
+![6Sc3ecnZ](img/6Sc3ecnZ.webp)
+
+**Güç puanı (1-5)**: 3
+
+##### Kırılması için gereken süre
+
+- saatte 100 deneme: yüzyıllar
+- saniyede 10 deneme: 4 ay
+- saniyede 10 bin deneme: 3 saat
+- saniyede 10 milyar deneme: bir saniyeden az
+
+#### XPH7S@Vq
+
+noktalama işaretleri eklesiniz bile sonuç değişmeyecek
+
+![XPH7S@Vq](img/XPH7S@Vq.webp)
+
+**Güç puanı (1-5)**: 3
+
+##### Kırılması için gereken süre
+
+- saatte 100 deneme: yüzyıllar
+- saniyede 10 deneme: 4 ay
+- saniyede 10 bin deneme: 3 saat
+- saniyede 10 milyar deneme: bir saniyeden az
+
+### Ezberlenen Parola Örnekleri
+
+Kaba kuvvet (bruteforce) ve Sözlük saldırıları ile kırılması neredeyse imkânsızdır.
+
+Not almaya gerek kalmaz. **Ezlerlenmesi kolaydır!**
+
+#### Gergin-deniz-aslani-gidiyor
+
+![XPH7S@Vq](img/XPH7S@Vq.webp)
+
+**Güç puanı (1-5)**: 5
+
+##### "Gergin-deniz-aslani-gidiyor" parolasının Kırılması için gereken süre
+
+- saatte 100 deneme: yüzyıllar
+- saniyede 10 deneme: yüzyıllar
+- saniyede 10 bin deneme: yüzyıllar
+- saniyede 10 milyar deneme: yüzyıllar
+
+Ayrıca Ezberlenen Parola'yı  kolaylıkla ezberleyebilirsiniz.
+
+<video controls src="img/A_Nervous_Frightened_(Sea_Lion).mp4" title="Gergin-deniz-aslani-gidiyor"></video>
+
+#### Şaşkın geyik gezecek
+
+Eğer şifre alanı türkçe karakterlere izin veriyorsa Ezberlenen Parola'nın kırılması olanaksızdır.
+
+![Şaşkın geyik gezecek](<img/Şaşkın geyik gezecek.webp>)
+
+**Güç puanı (1-5)**: 5
+
+##### "Şaşkın geyik gezecek" Kırılması için gereken süre
+
+- saatte 100 deneme: yüzyıllar
+- saniyede 10 deneme: yüzyıllar
+- saniyede 10 bin deneme: yüzyıllar
+- saniyede 10 milyar deneme: yüzyıllar
+
+#### Düzensiz mavi alakarga i̇zleyecek
 
  veya uluslar-arası uyumlu
 
-**Sadik-gunes-baligi-ve-kapsamli-guvercin-gitti**
+#### Sadik-gunes-baligi-ve-kapsamli-guvercin-gitti
 
 gibi cümleler, hem hatırlaması kolay hem de kırılması zor şifreler oluşturmanızı sağlar.
 
