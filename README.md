@@ -98,11 +98,7 @@ Sadece "gergin" bir "deniz aslanının" nasıl "gideceğini" hayal edin. Aklın�
 
 Ayrıca Ezberlenen Parola'yı  kolaylıkla ezberleyebilirsiniz.
 
-
-
-https://github.com/kaanguru/ezberlenen-parola/assets/47606404/273a09ff-9bb6-446b-9146-bdeb6065b87a
-
-
+[Gergin Deniz Aslanı](https://www.youtube.com/watch?v=owkdOWdEMU8)
 
 #### Şaşkın geyik gezecek
 
