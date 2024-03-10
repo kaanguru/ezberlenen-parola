@@ -10,19 +10,19 @@ Bu araç, Türkçe'de kolay hatırlanabilen cümlelerden yola çıkarak çok gü
 
 ![örnek Gergin-deniz-aslani-gidiyor](img/Gergin-deniz-aslani-gidiyor.webp)
 
+## Neden daha güvenli?
+
 ### Sıradan Örnekler
 
-#### Galatasaray
+#### Galatasaray ![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-1-red)
 
 **Uyarı**: Bu çok yaygın bir paroladır.
 
 Türkiye'deki erkeklerin tuttukları takımları parola olarak kullanma alışkanlığı vardır. **Bu çok kötü bir fikirdir.**
 
-![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-1-red)
-
 ---
 
-#### G4l4t4s4r4y
+#### G4l4t4s4r4y ![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-2-red)
 
 ![g4l4t4s4r4y](img/g4l4t4s4r4y.webp)
 
@@ -33,19 +33,15 @@ Türkiye'deki erkeklerin tuttukları takımları parola olarak kullanma alışka
 - saniyede 10 bin deneme: 2 saniye
 - saniyede 10 milyar deneme: bir saniyeden az
 
-![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-2-red)
-
 ---
 
-#### 64l4t454r4y
+#### 64l4t454r4y ![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-2-red)
 
 daha fazla sayı koymanız sonucu değiştirmiyor.
 
-![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-2-red)
-
 ---
 
-#### 6Sc3ecnZ
+#### 6Sc3ecnZ ![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-3-yellow)
 
 Belki de daha karışık olması için bir şifre üretici kullanmanın iyi bir fikir olduğunu düşünüyorsunuz.
 
@@ -56,28 +52,24 @@ Belki de daha karışık olması için bir şifre üretici kullanmanın iyi bir 
 - saniyede 10 bin deneme: 3 saat
 - saniyede 10 milyar deneme: bir saniyeden az
 
-![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-3-yellow)
-
 ---
 
-#### XPH7S@Vq
+#### XPH7S@Vq ![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-3-yellow)
 
 noktalama işaretleri eklesiniz bile sonuç değişmeyecek
 
 ![XPH7S@Vq](img/XPH7S@Vq.webp)
 
-![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-3-yellow)
-
 ---
 
-##### "XPH7S@Vq" Kırılması için gereken süre
+##### "XPH7S@Vq" Kırılması için gereken süre ![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-3-yellow)
 
 - saatte 100 deneme: yüzyıllar
 - saniyede 10 deneme: 4 ay
 - saniyede 10 bin deneme: 3 saat
 - saniyede 10 milyar deneme: bir saniyeden az
 
-![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-3-yellow)
+---
 
 ### Ezberlenen Parola Örnekleri
 
@@ -85,13 +77,11 @@ Kaba kuvvet (bruteforce) ve Sözlük saldırıları ile kırılması neredeyse i
 
 Not almaya gerek kalmaz. **Ezlerlenmesi kolaydır!**
 
-#### Gergin-deniz-aslani-gidiyor
+#### Gergin-deniz-aslani-gidiyor ![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
 
 Sadece "gergin" bir "deniz aslanının" nasıl "gideceğini" hayal edin. Aklınıza yerleşecek.
 
 ![kacan deniz aslani](img/kacan-deniz-aslani.webp)
-
-![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
 
 ---
 
@@ -106,17 +96,11 @@ Ayrıca Ezberlenen Parola'yı  kolaylıkla ezberleyebilirsiniz.
 
 ![Gergin Deniz Aslanı seyret](https://www.youtube.com/watch?v=owkdOWdEMU8)
 
-![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
-
-#### Şaşkın geyik gezecek
+#### Şaşkın geyik gezecek ![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
 
 Eğer şifre alanı türkçe karakterlere izin veriyorsa Ezberlenen Parola'nın kırılması olanaksızdır.
 
 ![Şaşkın geyik gezecek](<img/Şaşkın geyik gezecek.webp>)
-
-![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
-
----
 
 ##### "Şaşkın geyik gezecek" Kırılması için gereken süre
 
@@ -125,15 +109,13 @@ Eğer şifre alanı türkçe karakterlere izin veriyorsa Ezberlenen Parola'nın 
 - saniyede 10 bin deneme: yüzyıllar
 - saniyede 10 milyar deneme: yüzyıllar
 
-![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
+---
 
-#### Düzensiz mavi alakarga i̇zleyecek
+#### Düzensiz mavi alakarga i̇zleyecek ![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
 
  veya uluslar-arası uyumlu
 
-#### Sadik-gunes-baligi-ve-kapsamli-guvercin-gitti
-
-![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
+#### Sadik-gunes-baligi-ve-kapsamli-guvercin-gitti ![Static Badge](https://img.shields.io/badge/G%C3%BC%C3%A7_puan%C4%B1-5-green)
 
 gibi cümleler, hem hatırlaması kolay hem de kırılması zor şifreler oluşturmanızı sağlar.
 
@@ -168,20 +150,6 @@ const ozelParola = parolaUret(secenekler);
 
 ```
 
-## Neden daha güvenli?
-
-### Örnek Parolalar
-
-- Zarif tavuk çalışmalıydı
-( sadece kibar bir tavuğun çalışması gerektiğini hayal edin)
-- Meraklı solucan gidiyor
- ( merak içinde gezinen bir solucan hayal edin)
-- Olgun-papagan-gelecek
-- Acgozlu-murekkep-baligi-geliyor
-- Akilli-panda-bekliyor
-
-### Demo
-
 `./demo/index.htm` dosyası içindeki html sayfasıyla oynayabilirsiniz.
 
 [![Replit Playground](https://img.shields.io/badge/Replit-Playground-orange?style=for-the-badge&logo=jsfiddle)](https://replit.com/@kaanna/Parola-Uret?v=1)
@@ -195,6 +163,16 @@ const ozelParola = parolaUret(secenekler);
     document.getElementById("parola-alani").innerText = parolaUret();
   </script>
 ```
+
+### Örnek Parolalar
+
+- Zarif tavuk çalışmalıydı
+( sadece kibar bir tavuğun çalışması gerektiğini hayal edin)
+- Meraklı solucan gidiyor
+ ( merak içinde gezinen bir solucan hayal edin)
+- Olgun-papagan-gelecek
+- Acgozlu-murekkep-baligi-geliyor
+- Akilli-panda-bekliyor
 
 ### Özelleştirilmiş Parolalar
 
