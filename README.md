@@ -154,14 +154,37 @@ const ozelParola = parolaUret(secenekler);
 
 ```
 
+## Neden daha güvenli?
+
 ### Örnek Parolalar
 
 - Zarif tavuk çalışmalıydı
 ( sadece kibar bir tavuğun çalışması gerektiğini hayal edin)
 - Meraklı solucan gidiyor
  ( merak içinde gezinen bir solucan hayal edin)
+- Olgun-papagan-gelecek
+- Acgozlu-murekkep-baligi-geliyor
+- Akilli-panda-bekliyor
+
+### Demo
+
+`./demo/index.htm` dosyası içindeki html sayfasıyla oynayabilirsiniz.
+
+[![Replit Playground](https://img.shields.io/badge/Replit-Playground-orange?style=for-the-badge&logo=jsfiddle)](https://replit.com/@kaanna/Parola-Uret?v=1)
+
+[![JsFiddle Playground](https://img.shields.io/badge/JsFiddle-Playground-blue?style=for-the-badge&logo=jsfiddle)](https://jsfiddle.net/kaanguru/mnbhpu1v/6/)
+
+```html
+  <p id="parola-alani"></p>
+  <script type="module">
+    import {parolaUret} from "https://esm.run/ezberlenen-parola";
+    document.getElementById("parola-alani").innerText = parolaUret();
+  </script>
+```
 
 ### Özelleştirilmiş Parolalar
+
+5 kelimelik , türkçe karakterlerin kaldırıldığı ve kelime aralarına tire konulması durumunda.
 
 `const secenekler = { kelimeSayisi: 5, standart: true, araliklar: "-" };`
 
@@ -170,7 +193,3 @@ const ozelParola = parolaUret(secenekler);
 ## Belgeler
 
 [Üretilen Şifrelerin Kalitesini kontrol edebileceğiniz Test Platformu](<https://www.bennish.net/password-strength-checker/>)
-
-## Neden daha güvenli?
-
-![Hikayesi](/password_strength.webp)
