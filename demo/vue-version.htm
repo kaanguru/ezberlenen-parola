@@ -6,8 +6,8 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   </head>
   <body>
-    <button onclick="location.reload()">Parola Üret</button>
-    <h1 id="parola"></h1>
+    <!--    <button onclick="location.reload()">Parola Üret</button>
+    <h1 id="parola"></h1> -->
     <div id="app">{{ message }}</div>
 
     <script>
@@ -22,9 +22,9 @@
         },
       }).mount("#app");
     </script>
-    <script type="module">
+    <!-- <script type="module">
       import { parolaUret } from "https://esm.run/ezberlenen-parola";
       document.getElementById("parola").innerText = parolaUret({ standart: true, araliklar: "-" });
-    </script>
+    </script> -->
   </body>
 </html>
