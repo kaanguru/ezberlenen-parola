@@ -1,5 +1,6 @@
 <script>
-  import ParolaUret from "./ParolaUret.svelte";
+  import ParolaUret, { generateParola } from "./ParolaUret.svelte";
 </script>
 
 <ParolaUret />
+<button on:click={generateParola}>Parola Üret</button>
