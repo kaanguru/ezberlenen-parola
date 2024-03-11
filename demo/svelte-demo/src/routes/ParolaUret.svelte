@@ -3,10 +3,9 @@
 
   let parola = "";
 
-  function generateParola() {
-    parola = parolaUret({ kelimeSayisi: 2, standart: true, araliklar: "-" });
+  export function generateParola() {
+    parola = parolaUret({ kelimeSayisi: 4, standart: true, araliklar: "-" });
   }
 </script>
 
-<button on:click={generateParola}>Parola Üret</button>
 <h1>{parola}</h1>
