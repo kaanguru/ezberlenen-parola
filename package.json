@@ -32,6 +32,6 @@
     "lint": "tsc",
     "dev": "vitest --watch",
     "test": "vitest run",
-    "ci": "pnpm run lint && pnpm run test && pnpm run build"
+    "ci": "pnpm run lint && pnpm run test && pnpm run prebuild && pnpm run build"
   }
 }
