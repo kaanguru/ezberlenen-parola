@@ -1,5 +1,5 @@
 <script>
-  import { parolaUret } from "https://esm.run/ezberlenen-parola";
+  import { parolaUret } from "ezberlenen-parola";
 
   let parola = "";
 
