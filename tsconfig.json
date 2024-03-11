@@ -12,5 +12,5 @@
     "noEmit": false,
     "outDir": "./dist"
   },
-  "exclude": ["demo", "node_modules"]
+  "exclude": ["demo", "node_modules", "tests"]
 }
