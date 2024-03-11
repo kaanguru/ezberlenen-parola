@@ -25,5 +25,7 @@ jobs:
         run: pnpm run lint
       - name: test
         run: pnpm run test
+      - name: prebuild
+        run: pnpm run prebuild
       - name: build
         run: pnpm run build
