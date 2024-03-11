@@ -9,6 +9,8 @@
     "forceConsistentCasingInFileNames": true, // Ensures consistent casing in file names
     "moduleResolution": "bundler", // Resolve modules like Node.js
     "isolatedModules": true, // Ensures that each file can be safely transpiled without relying on other imports
-    "noEmit": false // Allows TypeScript to emit files
+    "noEmit": false,
+    // compile to dist folder
+    "outDir": "./dist"
   }
 }
