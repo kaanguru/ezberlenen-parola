@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Parola Uret Example</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ezberlenen-parola@0.2.5/dist/index.min.js"></script>
   </head>
   <body>
     <!--    <button onclick="location.reload()">Parola Üret</button>
@@ -12,6 +13,7 @@
 
     <script>
       const { createApp, ref } = Vue;
+      document.getElementById("parola").innerText = parolaUret({ standart: true, araliklar: "-" });
 
       createApp({
         setup() {
