@@ -13,7 +13,7 @@
 
     <script>
       const { createApp, ref } = Vue;
-      document.getElementById("parola").innerText = parolaUret({ standart: true, araliklar: "-" });
+      let parola = parolaUret({ standart: true, araliklar: "-" });
 
       createApp({
         setup() {
@@ -24,6 +24,9 @@
         },
       }).mount("#app");
     </script>
+    <div id="app">
+      <button @click="count++">Count is: {{ count }}</button>
+    </div>
     <!-- <script type="module">
       import { parolaUret } from "https://esm.run/ezberlenen-parola";
       document.getElementById("parola").innerText = parolaUret({ standart: true, araliklar: "-" });
