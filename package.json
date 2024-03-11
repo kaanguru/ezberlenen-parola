@@ -26,7 +26,7 @@
     "vitest": "^1.3.1"
   },
   "scripts": {
-    "prebuild": "del /S /Q dist\\*",
+    "prebuild": "del /S /Q dist\\* && for /D %%i in (dist\\*) do rd /S /Q \"%%i\"",
     "build": "tsup src/index.ts --format cjs,esm,iife --dts --minify",
     "lint": "tsc",
     "dev": "vitest --watch",
