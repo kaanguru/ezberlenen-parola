@@ -2,17 +2,15 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "es2020",
-    "lib": ["ES2020", "DOM"], // Include DOM types and ESNext features
-    "strict": true, // Enable all strict type-checking options
-    "esModuleInterop": true, // Enables interop between CommonJS and ES Modules
-    "skipLibCheck": true, // Skip type checking of declaration files
-    "forceConsistentCasingInFileNames": true, // Ensures consistent casing in file names
-    "moduleResolution": "bundler", // Resolve modules like Node.js
-    "isolatedModules": true, // Ensures that each file can be safely transpiled without relying on other imports
+    "lib": ["ES2020", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
     "noEmit": false,
-    // compile to dist folder
-    "outDir": "./dist",
-    // ignore demo folder
-    "exclude": ["demo", "node_modules"]
-  }
+    "outDir": "./dist"
+  },
+  "exclude": ["demo", "node_modules"]
 }
