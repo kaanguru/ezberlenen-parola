@@ -4,7 +4,7 @@
   let parola = "";
 
   function generateParola() {
-    parola = parolaUret({ standart: true, araliklar: "-" });
+    parola = parolaUret({ kelimeSayisi: 2, standart: true, araliklar: "-" });
   }
 </script>
 
