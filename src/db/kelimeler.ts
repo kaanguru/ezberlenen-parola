@@ -290,7 +290,7 @@ export const sifatlar: string[] = [
   "Ağır",
   "Yararlı",
   "Çaresiz",
-  "Kahramanca",
+  "Kahraman",
   "Komik",
   "Evsiz",
   "Sade",
