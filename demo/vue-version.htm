@@ -7,14 +7,11 @@
     <script src="https://cdn.jsdelivr.net/npm/ezberlenen-parola@0.2.5/dist/index.min.js"></script>
   </head>
   <body>
-    <!--    <button onclick="location.reload()">Parola Üret</button>
-    <h1 id="parola"></h1> -->
     <div id="app">{{ message }}</div>
 
     <script>
       const { createApp, ref } = Vue;
-      let parola = parolaUret({ standart: true, araliklar: "-" });
-
+      let parola = parolaUret();
       createApp({
         setup() {},
       }).mount("#app");
@@ -22,9 +19,5 @@
     <div id="app">
       <button @click="parolaUret()">Count is: {{ parola }}</button>
     </div>
-    <!-- <script type="module">
-      import { parolaUret } from "https://esm.run/ezberlenen-parola";
-      document.getElementById("parola").innerText = parolaUret({ standart: true, araliklar: "-" });
-    </script> -->
   </body>
 </html>
