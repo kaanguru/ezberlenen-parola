@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Parola Uret Example</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <button onclick="location.reload()">Parola Üret</button>
+    <h1 id="parola"></h1>
+    <div id="app">{{ message }}</div>
+
+    <script>
+      const { createApp, ref } = Vue;
+
+      createApp({
+        setup() {
+          const message = ref("Hello vue!");
+          return {
+            message,
+          };
+        },
+      }).mount("#app");
+    </script>
+    <script type="module">
+      import { parolaUret } from "https://esm.run/ezberlenen-parola";
+      document.getElementById("parola").innerText = parolaUret({ standart: true, araliklar: "-" });
+    </script>
+  </body>
+</html>
