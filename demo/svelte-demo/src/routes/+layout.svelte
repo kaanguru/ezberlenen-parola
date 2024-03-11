@@ -1,4 +1,4 @@
-<div class="app">
+<div>
   <main>
     <slot />
   </main>
