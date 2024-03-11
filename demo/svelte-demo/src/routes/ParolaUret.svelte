@@ -8,4 +8,5 @@
   }
 </script>
 
+<button on:click={generateParola}>Parola Üret</button>
 <h1>{parola}</h1>
