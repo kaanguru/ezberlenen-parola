@@ -36,9 +36,9 @@
       <p>
         <input id="kelimeSayisi" type="number" x-model="kelimeSayisi" placeholder="Kelime Sayısı" max="9" maxlength="1" />
         <label for="kelimeSayisi">Kelime Sayısı</label>
-        <input type="text" x-model="araliklar" placeholder="Aralıktaki karakter" />
+        <input id="araliklar" type="text" x-model="araliklar" placeholder="Aralıktaki karakter" />
+        <label for="araliklar">Aralıktaki karakter</label>
         <input type="checkbox" x-model="standart" id="standartCheckbox" />
-        <label for="standartCheckbox">Standart</label>
         <label for="standartCheckbox">Standart</label>
         <button @click="generatePassword">Parola Üret!</button>
       </p>
