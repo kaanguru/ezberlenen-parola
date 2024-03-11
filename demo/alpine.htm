@@ -39,7 +39,7 @@
         <label for="araliklar">karakteri</label> eklenmiş,
         <button @click="toggleStandart" :class="{ 'active': standart }">Uluslararası Standartlara Uygun</button>
         <button @click="toggleStandart" :class="{ 'active': !standart }">Türkçe</button>
-        <button @click="generatePassword">Parola Üret!</button>
+        <button @click="generatePassword" class="generate-button">Parola Üret!</button>
       </p>
       <p>
         <code x-text="password" x-show="password.length > 0"></code>
@@ -67,7 +67,7 @@
       }
       button {
         margin-right: 0.5rem;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem;
         border: 1px solid #ccc;
         background-color: #fff;
         cursor: pointer;
@@ -76,6 +76,11 @@
       button.active {
         background-color: #007bff;
         color: #fff;
+      }
+      .generate-button {
+        margin-left: 0.5rem;
+        padding: 1rem;
+        background-color: gainsboro;
       }
     </style>
   </body>
