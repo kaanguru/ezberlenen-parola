@@ -226,8 +226,6 @@ export const sifatlar: string[] = [
   "Rahatsız",
   "Başım dönüyor",
   "Şüpheli",
-  "Sıkıcı",
-  "Sıkıcı",
   "Tozlu",
   "İstekli",
   "Eğitimli",
