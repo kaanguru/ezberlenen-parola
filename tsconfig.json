@@ -11,6 +11,8 @@
     "isolatedModules": true, // Ensures that each file can be safely transpiled without relying on other imports
     "noEmit": false,
     // compile to dist folder
-    "outDir": "./dist"
+    "outDir": "./dist",
+    // ignore demo folder
+    "exclude": ["demo", "node_modules"]
   }
 }
