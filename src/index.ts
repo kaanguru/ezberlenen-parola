@@ -1,8 +1,8 @@
 import { yaratiklar, sifatlar, fiiller } from "./db/kelimeler";
 import { range, ilkHarfiBuyut, karisikKelimeSec } from "./helpers/helpers";
 import slugify from "slugify";
-export interface Ezberlenen_Parola_Secenekleri {
-  kelimeSayisi: number;
+export interface Parola_Secenekler {
+  kelimeSayisi?: number;
   standart?: boolean;
   araliklar?: string;
 }
@@ -11,7 +11,7 @@ export const varsayilanParolaSecenekleri = {
   buyut: true,
   araliklar: " ",
 };
-export function parolaUret(secenekler?: Ezberlenen_Parola_Secenekleri): string {
+export function parolaUret(secenekler?: Parola_Secenekler): string {
   const opts = { ...varsayilanParolaSecenekleri, ...secenekler };
   const kacKelimelik = Math.max(2, opts.kelimeSayisi);
 
