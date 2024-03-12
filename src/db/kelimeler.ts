@@ -406,7 +406,7 @@ export const sifatlar: string[] = [
   "İnce",
   "Yavaş",
   "Küçük",
-  "Gülümsemek",
+  "Gülümseyen",
   "Yumuşak",
   "Işıltılı",
   "Baharatlı",

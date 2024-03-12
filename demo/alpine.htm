@@ -2,30 +2,23 @@
 <html lang="tr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine/dist/alpine.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/ezberlenen-parola/dist/index.global.js"></script>
     <title>Ezberlenen Parola</title>
   </head>
   <body>
+
     <div
       x-data="{ 
-      kelimeSayisi: 4, 
+      kelimeSayisi: 3, 
       standart: false, 
       araliklar: ' ', 
-      password: '', 
-      generatePassword: function() { 
-          this.password = ezberlenenParola.parolaUret({ 
-              kelimeSayisi: this.kelimeSayisi, 
-              standart: this.standart, 
-              araliklar: this.araliklar 
-          }); 
-      }, 
-      copyToClipboard: function() {
-          navigator.clipboard.writeText(this.password)
-              .then(() => console.log('Copying to clipboard was successful!'))
-              .catch(err => console.error('Could not copy text: ', err));
+      get password() { return ezberlenenParola.parolaUret({
+         kelimeSayisi: this.kelimeSayisi, 
+         standart: this.standart, 
+         araliklar: this.araliklar
+        }) ;
       },
       toggleStandart: function() {
         this.standart = !this.standart;
@@ -39,11 +32,11 @@
         <label for="araliklar">karakteri</label> eklenmiş,
         <button @click="toggleStandart" :class="{ 'active': standart }">Uluslararası Standartlara Uygun</button>
         <button @click="toggleStandart" :class="{ 'active': !standart }">Türkçe</button>
-        <button @click="generatePassword" class="generate-button">Parola Üret!</button>
       </p>
       <p>
         <code x-text="password" x-show="password.length > 0"></code>
-        <button @click="copyToClipboard" x-show="password.length > 0" class="copy-button">kopyala</button>
+
+</span>
       </p>
     </div>
     <style>
