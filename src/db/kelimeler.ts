@@ -59,7 +59,6 @@ const memeliler = [
   "Fare",
   "Deniz Gergedanı",
   "Ocelot",
-  "Opossum",
   "Orangutan",
   "Orca",
   "Su Samuru",
