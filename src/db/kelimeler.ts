@@ -100,7 +100,7 @@ const memeliler = [
   "Yak",
   "Zebra",
 ];
-const kuslar = ["Mavi Alakarga", "Mavi Kuş", "Şahin", "Piliç", "Tavuk", "Akbaba", "Vinç", "Karga", "Güvercin", "Ördek", "Kartal", "Daü", "Şahin", "İspinoz", "Flamingo", "Kaz", "Orman tavuğu", "Şahin", "Tavuk", "Balıkçıl", "Sinek kuşu", "Kerkenez", "Kivi", "Lark", "Amerika Papağanı", "Saksağan", "Alaycı Kuş", "Devekuşu", "Baykuş", "Muhabbet Kuşu", "Papağan", "Keklik", "Pelikan", "Penguen", "Sülün", "Güvercin", "Bıldırcın", "Kuzgun", "Yol Koşucusu", "Robin", "Horoz", "Martı", "Sığırcık", "Leylek", "Güneş kuşu", "Kuğu", "Tukan", "Türkiye", "Akbaba", "Ağaçkakan"];
+const kuslar = ["Mavi Alakarga", "Mavi Kuş", "Şahin", "Piliç", "Tavuk", "Akbaba", "Vinç", "Karga", "Güvercin", "Ördek", "Kartal", "Şahin", "İspinoz", "Flamingo", "Kaz", "Orman tavuğu", "Şahin", "Tavuk", "Balıkçıl", "Sinek kuşu", "Kerkenez", "Kivi", "Lark", "Amerika Papağanı", "Saksağan", "Alaycı Kuş", "Devekuşu", "Baykuş", "Muhabbet Kuşu", "Papağan", "Keklik", "Pelikan", "Penguen", "Sülün", "Güvercin", "Bıldırcın", "Kuzgun", "Yol Koşucusu", "Robin", "Horoz", "Martı", "Sığırcık", "Leylek", "Güneş kuşu", "Kuğu", "Tukan", "Türkiye", "Akbaba", "Ağaçkakan"];
 
 const reptiles = ["Timsah", "Anakonda", "Sakallı Ejderha", "Boa Yılanı", "Kayman", "Bukalemun", "Kobra", "Bakır Kafa", "Timsah", "Gecko", "İguana", "Komodo Ejderi", "Kertenkele", "Mamba", "Python", "Çıngıraklı Yılan", "Skink", "Yılan", "Kaplumbağa", "Kaplumbağa", " Engerek"];
 
@@ -115,7 +115,7 @@ const arachnids = ["Örümcek", "Akrep", "Baba Uzun Bacaklar", "Tarantula"];
 const crustaceans = ["Midye", "Yengeç", "Istakoz", "Kril", "Karides", "Karides", "Kerevit"];
 const mollusks = ["Salyangoz", "Sümüklü böcek", "Nautilus", "Kalamar", "Ahtapot", "İstiridye", "Midye", "İstiridye", "Tarak", "Mürekkep Balığı"];
 const invertebrates = ["Solucan", "Denizanası", "Sünger", "Kırkayak"];
-const mistikYaratiklar = ["Griffin", "Harpy", "Gorgon", "Hipogriff", "Anka Kuşu", "Thunderbird", "Cehennem Köpeği", "Kurt Adam", "Sfenks", "Deniz Kızı", "Kraken", "Koca Ayak", "Yeti", "Çakal", "Basilisk", "Ejderha", "Canavar", "Hidra", "Tek boynuzlu at", "Pegasus", "Centaur", "Golem", "Homunculus", "Tepegöz", "Titan", "Peri", "Cüce", "Cüce", "Gulyabani", "İth", "Trol", "Peri", "Yılan", "Dev", "Elf", "Siren", "Ruh emici", "Dev", "Goblin", "Biçici", "Ata", "Azrail", "Peri", "Şeytan", "Melek"];
+const mistikYaratiklar = ["Griffin", "Harpy", "Gorgon", "Hipogriff", "Anka Kuşu", "Thunderbird", "Cehennem Köpeği", "Kurt Adam", "Sfenks", "Deniz Kızı", "Kraken", "Koca Ayak", "Yeti", "Çakal", "Basilisk", "Ejderha", "Canavar", "Hidra", "Tek boynuzlu at", "Pegasus", "Centaur", "Golem", "Homunculus", "Tepegöz", "Titan", "Peri", "Cüce", "Cüce", "Gulyabani", "İth", "Trol", "Peri", "Yılan", "Dev", "Elf", "Siren", "Ruh emici", "Dev", "Goblin", "Biçici", "Azrail", "Peri", "Şeytan", "Melek"];
 
 export const yaratiklar = [...memeliler, ...kuslar, ...reptiles, ...amphibians, ...baliklar, ...dinosaurs, ...bocekler, ...arachnids, ...crustaceans, ...mollusks, ...invertebrates, ...mistikYaratiklar];
 
