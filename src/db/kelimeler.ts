@@ -99,17 +99,17 @@ const memeliler = [
   "Yak",
   "Zebra",
 ];
-const kuslar = ["Mavi Alakarga", "Mavi Kuş", "Şahin", "Piliç", "Tavuk", "Akbaba", "Vinç", "Karga", "Güvercin", "Ördek", "Kartal", "Şahin", "İspinoz", "Flamingo", "Kaz", "Orman tavuğu", "Şahin", "Tavuk", "Balıkçıl", "Sinek kuşu", "Kerkenez", "Kivi", "Lark", "Amerika Papağanı", "Saksağan", "Alaycı Kuş", "Devekuşu", "Baykuş", "Muhabbet Kuşu", "Papağan", "Keklik", "Pelikan", "Penguen", "Sülün", "Güvercin", "Bıldırcın", "Kuzgun", "Yol Koşucusu", "Robin", "Horoz", "Martı", "Sığırcık", "Leylek", "Güneş kuşu", "Kuğu", "Tukan", "Türkiye", "Akbaba", "Ağaçkakan"];
+const kuslar = ["Mavi Alakarga", "Mavi Kuş", "Şahin", "Piliç", "Tavuk", "Akbaba", "Vinç", "Karga", "Güvercin", "Ördek", "Kartal", "Şahin", "İspinoz", "Flamingo", "Kaz", "Orman tavuğu", "Şahin", "Tavuk", "Balıkçıl", "Sinek kuşu", "Kerkenez", "Kivi", "Lark", "Amerika Papağanı", "Saksağan", "Alaycı Kuş", "Devekuşu", "Baykuş", "Muhabbet Kuşu", "Papağan", "Keklik", "Pelikan", "Penguen", "Sülün", "Güvercin", "Bıldırcın", "Kuzgun", "Yol Koşucusu", "Robin", "Horoz", "Martı", "Sığırcık", "Leylek", "Güneş kuşu", "Kuğu", "Tukan", "Akbaba", "Ağaçkakan"];
 
 const reptiles = ["Timsah", "Anakonda", "Sakallı Ejderha", "Boa Yılanı", "Kayman", "Bukalemun", "Kobra", "Bakır Kafa", "Timsah", "Gecko", "İguana", "Komodo Ejderi", "Kertenkele", "Mamba", "Python", "Çıngıraklı Yılan", "Skink", "Yılan", "Kaplumbağa", "Kaplumbağa", " Engerek"];
 
 const amphibians = ["Kurbağa", "Semender", "Kurbağa", "Kurbağa", "Semender", "Çamur Yavrusu", "İribaş", "Aksolotl"];
 
-const baliklar = ["Hamsi", "Melek Balığı", "Fener Balığı", "Barracuda", "Bluegill", "Sazan", "Yayın Balığı", "Palyaço Balığı", "Morina", "Yılan Balığı", "Pisi Balığı", "Uçan Balık", "Akvaryum Balığı", "Orfoz", "Lepistes", "Ringa balığı", "Koi Balığı", "Uskumru", "Marlin", "Pirana", "Kirpi Balığı", "Somon", "Levrek", "Köpekbalığı", "Balığı", "Kalamar", "Vatoz", "Mersin Balığı", "Güneş Balığı", "Kılıç Balığı", "Kaplan balığı", "Tilapia", "Alabalık", "Ton Balığı"];
+const baliklar = ["Hamsi", "Melek Balığı", "Fener Balığı", "Barracuda", "Sazan", "Yayın Balığı", "Palyaço Balığı", "Morina", "Yılan Balığı", "Pisi Balığı", "Uçan Balık", "Akvaryum Balığı", "Orfoz", "Lepistes", "Ringa balığı", "Koi Balığı", "Uskumru", "Marlin", "Pirana", "Kirpi Balığı", "Somon", "Levrek", "Köpekbalığı", "Balığı", "Kalamar", "Vatoz", "Mersin Balığı", "Güneş Balığı", "Kılıç Balığı", "Kaplan balığı", "Alabalık", "Ton Balığı"];
 
 const dinosaurs = ["T-Rex", "Raptor", "Trike"];
 
-const bocekler = ["Karınca", "Antlion", "Yaprak Biti", "Böcek", "Yaban Arısı", "Kelebek", "Tırtıl", "Ağustosböceği", "Hamamböceği", "Kriket", "Kız Sineği", "Yusufçuk", "Kulak Tıkacı", "Pire", "Sinek", "Meyve Sineği", "Çekirge", "Bal Arısı", "Eşekarısı", "At sineği", "Uçan sinek", "Bağcıklı Böcek", "Uğur Böceği", "Çekirge", "Çekirge", "Mayıs Sineği", "Sivrisinek", "Güve", "Peygamber Devesi", "Akrep Sineği", "Gümüş Balığı", "Yaban arısı", "Sopa böceği", "Kokuşmuş Böcek", "Taş Sineği", "Ter Arısı", "Termit", "Yaban Arısı", "Sarıca"];
+const bocekler = ["Karınca", "Antlion", "Yaprak Biti", "Böcek", "Yaban Arısı", "Kelebek", "Tırtıl", "Ağustosböceği", "Hamamböceği", "Kriket", "Kız Sineği", "Yusufçuk", "Kulak Tıkacı", "Pire", "Sinek", "Meyve Sineği", "Çekirge", "Eşekarısı", "At sineği", "Uçan sinek", "Bağcıklı Böcek", "Uğur Böceği", "Çekirge", "Çekirge", "Mayıs Sineği", "Sivrisinek", "Güve", "Peygamber Devesi", "Akrep Sineği", "Gümüş Balığı", "Yaban arısı", "Böcek", "Sinek", "Bal Arısı", "Termit", "Yaban Arısı", "Sarıca"];
 const arachnids = ["Örümcek", "Akrep", "Baba Uzun Bacaklar", "Tarantula"];
 const crustaceans = ["Midye", "Yengeç", "Istakoz", "Kril", "Karides", "Karides", "Kerevit"];
 const mollusks = ["Salyangoz", "Sümüklü böcek", "Nautilus", "Kalamar", "Ahtapot", "İstiridye", "Midye", "İstiridye", "Tarak", "Mürekkep Balığı"];
