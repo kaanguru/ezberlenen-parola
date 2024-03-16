@@ -191,7 +191,6 @@ export const sifatlar: string[] = [
   "Mahkum",
   "Şaşkın",
   "Havalı",
-  "Kooperatif",
   "Cesur",
   "Çılgın",
   "Ürpertici",
