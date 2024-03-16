@@ -460,4 +460,4 @@ export const sifatlar: string[] = [
   "Çılgın",
   "Gayretli",
 ];
-export const fiiller: string[] = ["Gitti", "Gidiyor", "Gidecek", "Geliyor", "Geldi", "Gelecek", "Okuyor", "Okudu", "Okuyacak", "Anlatıyor", "Anlattı", "Anlatacak", "Bekliyor", "Bekledi", "Bekleyecek", "İzliyor", "İzledi", "İzleyecek", "Oturdu", "Oturuyor", "Oturacak", "Dans Etti", "Dans Edecek", "Durdu", "Duracak", "Dinliyor", "Dinlemiyor", "Geziyor", "Gezmiş", "Gezdi", "Gezecek", "Gezer", "Tırmanıyor", "Tırmandı", "Tırmanacak", "Çalışmalı", "Çalışacak", "Çalışıyor", "Ayıkladı", "Ayıklıyor", "Ayıkladılar", "Gönderiyor", "Gönderdi", "Gönderir"];
+export const fiiller: string[] = ["Gitti", "Gidiyor", "Gidecek", "Geliyor", "Geldi", "Gelecek", "Okuyor", "Okudu", "Okuyacak", "Anlatıyor", "Anlattı", "Anlatacak", "Bekliyor", "Bekledi", "Bekleyecek", "İzliyor", "İzledi", "İzleyecek", "Oturdu", "Oturuyor", "Oturacak", "Dans Etti", "Dans Edecek", "Durdu", "Duracak", "Dinliyor", "Dinlemiyor", "Geziyor", "Gezmiş", "Gezdi", "Gezecek", "Gezer", "Tırmanıyor", "Tırmandı", "Tırmanacak", "Çalışmalı", "Çalışacak", "Çalışıyor", "Ayıkladı", "Ayıklıyor", "Gönderiyor", "Gönderdi", "Gönderir"];
