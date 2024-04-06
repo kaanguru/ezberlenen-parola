@@ -28,3 +28,4 @@ jobs:
         id: publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
+      - run: npx jsr publish
