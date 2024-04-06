@@ -114,7 +114,7 @@ Ayrıca Ezberlenen Parola'yı  kolaylıkla ezberleyebilirsiniz.
 
 Eğer şifre alanı türkçe karakterlere izin veriyorsa Ezberlenen Parola'nın kırılması olanaksızdır.
 
-![Şaşkın geyik gezecek](<img/Şaşkın geyik gezecek.webp>)
+![Şaşkın geyik gezecek](<img/Saskin-geyik-gezecek.webp>)
 
 ##### "Şaşkın geyik gezecek" Kırılması için gereken süre
 
