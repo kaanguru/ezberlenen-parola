@@ -1,5 +1,5 @@
 import { expect, describe, it, expectTypeOf, test } from "vitest";
-import { parolaUret, Ezberlenen_Parola_Secenekleri } from "../index";
+import { parolaUret, Parola_Secenekler } from "../index";
 const secenekler = { kelimeSayisi: 5, standart: true, araliklar: "-" };
 test("dize oluşuyor mu?", () => {
   expectTypeOf(parolaUret(secenekler)).toBeString();
@@ -14,7 +14,7 @@ describe("parolaUret fonksiyonu testleri", () => {
   });
 
   it("özel seçeneklerle parola üretir", () => {
-    const secenekler: Ezberlenen_Parola_Secenekleri = {
+    const secenekler: Parola_Secenekler = {
       kelimeSayisi: 4,
       standart: false,
       araliklar: "_",
@@ -25,7 +25,7 @@ describe("parolaUret fonksiyonu testleri", () => {
   });
 
   it("kelime sayısı 2'den küçükse minimum 2 kelime üretir", () => {
-    const secenekler: Ezberlenen_Parola_Secenekleri = {
+    const secenekler: Parola_Secenekler = {
       kelimeSayisi: 1,
     };
     const parola = parolaUret(secenekler);

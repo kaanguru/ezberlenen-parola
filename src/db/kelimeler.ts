@@ -1,122 +1,6 @@
-const memeliler = [
-  "Alpaka",
-  "Karınca yiyen",
-  "Antilop",
-  "Maymun",
-  "Armadillo",
-  "Porsuk",
-  "Kunduz",
-  "Vaşak",
-  "Buffalo",
-  "Boğa",
-  "Deve",
-  "Kapibara",
-  "Karibu",
-  "Kedi",
-  "Çita",
-  "Şempanze",
-  "Sincap",
-  "Puma",
-  "İnek",
-  "Çakal",
-  "Geyik",
-  "Dingo",
-  "Köpek",
-  "Yunus",
-  "Eşek",
-  "Fil",
-  "Geyik",
-  "Gelincik",
-  "Tilki",
-  "Zürafa",
-  "Keçi",
-  "Goril",
-  "Köstebek",
-  "Kobay",
-  "Hamster",
-  "Tavşan",
-  "Kirpi",
-  "Su Aygırı",
-  "At",
-  "Sırtlan",
-  "Çakal",
-  "Jaguar",
-  "Kanguru",
-  "Koala",
-  "Lemur",
-  "Leopar",
-  "Aslan",
-  "Llama",
-  "Vaşak",
-  "Mamut",
-  "Denizayısı",
-  "Mirket",
-  "Vizon",
-  "Köstebek",
-  "Firavun faresi",
-  "Maymun",
-  "Geyik",
-  "Fare",
-  "Deniz Gergedanı",
-  "Ocelot",
-  "Orangutan",
-  "Orca",
-  "Su Samuru",
-  "Öküz",
-  "Panda",
-  "Pangolin",
-  "Domuz",
-  "Ornitorenk",
-  "Kutup Ayısı",
-  "Kirpi",
-  "Domuz balığı",
-  "Çayır Köpeği",
-  "Tavşan",
-  "Rakun",
-  "Sıçan",
-  "Ren geyiği",
-  "Gergedan",
-  "Deniz Aslanı",
-  "Mühür",
-  "Koyun",
-  "Kokarca",
-  "Tembellik",
-  "Kar Leoparı",
-  "Sincap",
-  "Güneş Ayısı",
-  "Tapir",
-  "Tazmanya Şeytanı",
-  "Kaplan",
-  "Wallaby",
-  "Mors",
-  "Yaban domuzu",
-  "Gelincik",
-  "Balina",
-  "Antilop",
-  "Kurt",
-  "Wolverine",
-  "Wombat",
-  "Yak",
-  "Zebra",
-];
-const kuslar = ["Mavi Alakarga", "Mavi Kuş", "Şahin", "Piliç", "Tavuk", "Akbaba", "Vinç", "Karga", "Güvercin", "Ördek", "Kartal", "Şahin", "İspinoz", "Flamingo", "Kaz", "Orman tavuğu", "Şahin", "Tavuk", "Balıkçıl", "Sinek kuşu", "Kerkenez", "Kivi", "Lark", "Amerika Papağanı", "Saksağan", "Alaycı Kuş", "Devekuşu", "Baykuş", "Muhabbet Kuşu", "Papağan", "Keklik", "Pelikan", "Penguen", "Sülün", "Güvercin", "Bıldırcın", "Kuzgun", "Yol Koşucusu", "Robin", "Horoz", "Martı", "Sığırcık", "Leylek", "Güneş kuşu", "Kuğu", "Tukan", "Akbaba", "Ağaçkakan"];
+import { memeliler, kuslar, reptiles, amphibians, baliklar, dinosaurs, bocekler, orumcekgiller, kabuklular, yumusakcalar, omurgasizlar, mistikYaratiklar } from "./yaratiklar";
 
-const reptiles = ["Timsah", "Anakonda", "Sakallı Ejderha", "Boa Yılanı", "Kayman", "Bukalemun", "Kobra", "Bakır Kafa", "Timsah", "Gecko", "İguana", "Komodo Ejderi", "Kertenkele", "Mamba", "Python", "Çıngıraklı Yılan", "Skink", "Yılan", "Kaplumbağa", "Kaplumbağa", " Engerek"];
-
-const amphibians = ["Kurbağa", "Semender", "Kurbağa", "Kurbağa", "Semender", "İribaş", "Aksolotl"];
-
-const baliklar = ["Hamsi", "Melek Balığı", "Fener Balığı", "Barracuda", "Sazan", "Yayın Balığı", "Palyaço Balığı", "Morina", "Yılan Balığı", "Pisi Balığı", "Uçan Balık", "Akvaryum Balığı", "Orfoz", "Lepistes", "Ringa balığı", "Koi Balığı", "Uskumru", "Marlin", "Pirana", "Kirpi Balığı", "Somon", "Levrek", "Köpekbalığı", "Balığı", "Kalamar", "Vatoz", "Mersin Balığı", "Güneş Balığı", "Kılıç Balığı", "Kaplan balığı", "Alabalık", "Ton Balığı"];
-
-const dinosaurs = ["T-Rex", "Raptor", "Trike"];
-
-const bocekler = ["Karınca", "Antlion", "Yaprak Biti", "Böcek", "Yaban Arısı", "Kelebek", "Tırtıl", "Ağustosböceği", "Hamamböceği", "Kriket", "Kız Sineği", "Yusufçuk", "Kulak Tıkacı", "Pire", "Sinek", "Meyve Sineği", "Çekirge", "Eşekarısı", "At sineği", "Uçan sinek", "Bağcıklı Böcek", "Uğur Böceği", "Çekirge", "Çekirge", "Mayıs Sineği", "Sivrisinek", "Güve", "Peygamber Devesi", "Akrep Sineği", "Gümüş Balığı", "Yaban arısı", "Böcek", "Sinek", "Bal Arısı", "Termit", "Yaban Arısı", "Sarıca"];
-const arachnids = ["Örümcek", "Akrep", "Baba Uzun Bacaklar", "Tarantula"];
-const crustaceans = ["Midye", "Yengeç", "Istakoz", "Kril", "Karides", "Karides", "Kerevit"];
-const mollusks = ["Salyangoz", "Sümüklü böcek", "Nautilus", "Kalamar", "Ahtapot", "İstiridye", "Midye", "İstiridye", "Tarak", "Mürekkep Balığı"];
-const invertebrates = ["Solucan", "Denizanası", "Sünger", "Kırkayak"];
-const mistikYaratiklar = ["Griffin", "Harpy", "Gorgon", "Hipogriff", "Anka Kuşu", "Thunderbird", "Cehennem Köpeği", "Kurt Adam", "Sfenks", "Deniz Kızı", "Kraken", "Koca Ayak", "Yeti", "Çakal", "Basilisk", "Ejderha", "Canavar", "Hidra", "Tek boynuzlu at", "Pegasus", "Centaur", "Golem", "Homunculus", "Tepegöz", "Titan", "Peri", "Cüce", "Cüce", "Gulyabani", "İth", "Trol", "Peri", "Yılan", "Dev", "Elf", "Siren", "Ruh emici", "Dev", "Goblin", "Biçici", "Azrail", "Peri", "Şeytan", "Melek"];
-
-export const yaratiklar = [...memeliler, ...kuslar, ...reptiles, ...amphibians, ...baliklar, ...dinosaurs, ...bocekler, ...arachnids, ...crustaceans, ...mollusks, ...invertebrates, ...mistikYaratiklar];
+export const yaratiklar = [...memeliler, ...kuslar, ...reptiles, ...amphibians, ...baliklar, ...dinosaurs, ...bocekler, ...orumcekgiller, ...kabuklular, ...yumusakcalar, ...omurgasizlar, ...mistikYaratiklar];
 
 export const sifatlar: string[] = [
   "Sahipsiz",
@@ -344,7 +228,7 @@ export const sifatlar: string[] = [
   "Demode",
   "Çirkin",
   "Olağanüstü",
-  "Panik içinde",
+  "Panik",
   "Barışçıl",
   "Mükemmel",
   "Pembe",
