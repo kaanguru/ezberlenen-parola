@@ -1,21 +1,35 @@
 import { yaratiklar, sifatlar, fiiller } from "./db/kelimeler";
 import { range, ilkHarfiBuyut, karisikKelimeSec } from "./helpers/helpers";
 import slugify from "slugify";
-
+/**
+ * Options for generating a password.
+ * @typedef {Object} Parola_Secenekler
+ * @property {number} [kelimeSayisi=3] - The number of words to include in the password. Default is 3.
+ * @property {boolean} [standart=true] - Whether to slugify the generated password. Default is true.
+ * @property {string} [araliklar=" "] - The separator between words in the generated password. Default is a space.
+ */
 export interface Parola_Secenekler {
   kelimeSayisi?: number;
   standart?: boolean;
   araliklar?: string;
 }
+/**
+ * Default options for generating a password.
+ * @type {Parola_Secenekler}
+ * @property {number} kelimeSayisi - The default number of words to include in the password. Default is 3.
+ * @property {boolean} buyut - Whether to slugify the generated password. Default is true.
+ * @property {string} araliklar - The default separator between words in the generated password. Default is a space.
+ */
 export const varsayilanParolaSecenekleri = {
   kelimeSayisi: 3,
   buyut: true,
   araliklar: " ",
 };
 
-/** This function generates password.
- * @param secenekler This is the options object to generate password
- * @returns The end result of password as string.
+/**
+ * Generates a password based on the provided options.
+ * @param {Parola_Secenekler} [secenekler] - Options for generating the password.
+ * @returns {string} The generated password as a string.
  */
 export function parolaUret(secenekler?: Parola_Secenekler): string {
   const opts = { ...varsayilanParolaSecenekleri, ...secenekler };
