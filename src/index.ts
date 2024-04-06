@@ -1,6 +1,7 @@
 import { yaratiklar, sifatlar, fiiller } from "./db/kelimeler";
 import { range, ilkHarfiBuyut, karisikKelimeSec } from "./helpers/helpers";
 import slugify from "slugify";
+
 export interface Parola_Secenekler {
   kelimeSayisi?: number;
   standart?: boolean;
@@ -11,6 +12,11 @@ export const varsayilanParolaSecenekleri = {
   buyut: true,
   araliklar: " ",
 };
+
+/** This function generates password.
+ * @param secenekler This is the options object to generate password
+ * @returns The end result of password as string.
+ */
 export function parolaUret(secenekler?: Parola_Secenekler): string {
   const opts = { ...varsayilanParolaSecenekleri, ...secenekler };
   const kacKelimelik = Math.max(2, opts.kelimeSayisi);
