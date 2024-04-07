@@ -109,6 +109,7 @@ const kabuklular = ["Midye", "Yengeç", "Istakoz", "Kril", "Karides", "Karides",
 const yumusakcalar = ["Salyangoz", "Sümüklü böcek", "Nautilus", "Kalamar", "Ahtapot", "İstiridye", "Midye", "İstiridye", "Tarak", "Mürekkep Balığı"];
 const omurgasizlar = ["Solucan", "Denizanası", "Sünger", "Kırkayak"];
 const mistikYaratiklar = ["Griffin", "Harpy", "Gorgon", "Hipogriff", "Anka Kuşu", "Thunderbird", "Cehennem Köpeği", "Kurt Adam", "Sfenks", "Deniz Kızı", "Kraken", "Koca Ayak", "Yeti", "Çakal", "Basilisk", "Ejderha", "Canavar", "Hidra", "Tek boynuzlu at", "Pegasus", "Centaur", "Golem", "Homunculus", "Tepegöz", "Titan", "Peri", "Cüce", "Cüce", "Gulyabani", "İth", "Trol", "Peri", "Yılan", "Dev", "Elf", "Siren", "Ruh emici", "Dev", "Goblin", "Biçici", "Azrail", "Peri", "Şeytan", "Melek"];
+
 const constants = [
   { name: "memeliler", array: memeliler },
   { name: "kuslar", array: kuslar },
