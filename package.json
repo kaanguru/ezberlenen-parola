@@ -29,7 +29,7 @@
   },
   "scripts": {
     "dev": "vitest --watch",
-    "dev:duzenle": "pnpm tsup  ./src/db/duzenle.ts --watch --onSuccess \"node dist/duzenle.js\"",
+    "dev:duzenle": "pnpm tsup  ./src/helpers/duzenle.ts --watch --onSuccess \"node dist/duzenle.js\"",
     "lint": "tsc",
     "test": "vitest run",
     "prebuild": "rimraf \"dist/\"",

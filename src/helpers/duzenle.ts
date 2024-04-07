@@ -133,7 +133,9 @@ function temizle(kelimeler: string[]) {
 
 function appendConstants() {
   constants.forEach(({ name, array }) => {
-    const content = `\nexport const ${name} = ${JSON.stringify(temizle(array), null, 2)};`;
+    const content = `\n
+    export const ${name} = ${JSON.stringify(temizle(array), null, 2)};
+    `;
     fs.appendFile("src/db/yaratiklar.ts", content, "utf8", (err) => {
       if (err) {
         console.error("An error occurred while writing the file:", err);
@@ -141,17 +143,6 @@ function appendConstants() {
         console.log(`File has been written successfully for ${name}.`);
       }
     });
-  });
-}
-
-function appendToYaratiklar(constant: string, kelimeler: string[]) {
-  const content = `\nexport const ${constant} = ${JSON.stringify(kelimeler, null, 2)};`;
-  fs.appendFile("src/db/yaratiklar.ts", content, "utf8", (err) => {
-    if (err) {
-      console.error("An error occurred while writing the file:", err);
-    } else {
-      console.log("File has been written successfully.");
-    }
   });
 }
 
