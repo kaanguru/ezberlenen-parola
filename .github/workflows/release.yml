@@ -1,4 +1,4 @@
-name: Publish npm package
+name: Publish to NPM
 on:
   push:
     branches: main
@@ -23,8 +23,6 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: ci
         run: pnpm run ci
-      - name: jsr publish
-        run: pnpm dlx jsr publish
       - uses: JS-DevTools/npm-publish@v3
         id: publish
         with:

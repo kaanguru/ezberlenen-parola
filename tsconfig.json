@@ -11,8 +11,7 @@
     "isolatedModules": true,
     "noEmit": false,
     "outDir": "./dist",
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "experimentalDecorators": true
   },
   "exclude": ["demo", "node_modules", "src/tests"]
 }

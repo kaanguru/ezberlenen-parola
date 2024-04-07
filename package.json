@@ -28,11 +28,13 @@
     "vitest": "^1.4.0"
   },
   "scripts": {
+    "dev": "vitest --watch",
+    "dev:duzenle": "pnpm tsup  ./src/db/duzenle.ts --watch --onSuccess \"node dist/duzenle.js\"",
+    "lint": "tsc",
+    "test": "vitest run",
     "prebuild": "rimraf \"dist/\"",
     "build": "tsup src/index.ts --format cjs,esm,iife --global-name ezberlenenParola --dts --minify",
-    "lint": "tsc",
-    "dev": "vitest --watch",
-    "test": "vitest run",
-    "ci": "pnpm run lint && pnpm run test && pnpm run prebuild && pnpm run build"
+    "ci": "pnpm run lint && pnpm run test && pnpm run prebuild && pnpm run build",
+    "publish2jsr": "pnpm dlx jsr publish"
   }
 }

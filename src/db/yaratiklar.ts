@@ -115,6 +115,12 @@ export const kuslar = [
   "Tukan",
   "Ağaçkakan"
 ];
+export const amphibians = [
+  "Kurbağa",
+  "Semender",
+  "İribaş",
+  "Aksolotl"
+];
 export const baliklar = [
   "Hamsi",
   "Barracuda",
@@ -132,6 +138,25 @@ export const baliklar = [
   "Kalamar",
   "Vatoz",
   "Alabalık"
+];
+export const bocekler = [
+  "Karınca",
+  "Antlion",
+  "Böcek",
+  "Kelebek",
+  "Tırtıl",
+  "Ağustosböceği",
+  "Hamamböceği",
+  "Kriket",
+  "Yusufçuk",
+  "Pire",
+  "Sinek",
+  "Çekirge",
+  "Eşekarısı",
+  "Sivrisinek",
+  "Güve",
+  "Termit",
+  "Sarıca"
 ];
 export const reptiles = [
   "Timsah",
@@ -154,35 +179,10 @@ export const dinosaurs = [
   "Raptor",
   "Trike"
 ];
-export const bocekler = [
-  "Karınca",
-  "Antlion",
-  "Böcek",
-  "Kelebek",
-  "Tırtıl",
-  "Ağustosböceği",
-  "Hamamböceği",
-  "Kriket",
-  "Yusufçuk",
-  "Pire",
-  "Sinek",
-  "Çekirge",
-  "Eşekarısı",
-  "Sivrisinek",
-  "Güve",
-  "Termit",
-  "Sarıca"
-];
 export const orumcekgiller = [
   "Örümcek",
   "Akrep",
   "Tarantula"
-];
-export const amphibians = [
-  "Kurbağa",
-  "Semender",
-  "İribaş",
-  "Aksolotl"
 ];
 export const kabuklular = [
   "Midye",
@@ -227,12 +227,6 @@ export const mistikYaratiklar = [
   "Şeytan",
   "Melek"
 ];
-export const omurgasizlar = [
-  "Solucan",
-  "Denizanası",
-  "Sünger",
-  "Kırkayak"
-];
 export const yumusakcalar = [
   "Salyangoz",
   "Nautilus",
@@ -241,4 +235,10 @@ export const yumusakcalar = [
   "İstiridye",
   "Midye",
   "Tarak"
+];
+export const omurgasizlar = [
+  "Solucan",
+  "Denizanası",
+  "Sünger",
+  "Kırkayak"
 ];
