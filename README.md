@@ -4,7 +4,7 @@
 
 🔑 Generate Turkish Password Sentences
 
-[![install size](https://packagephobia.com/badge?p=ezberlenen-parola)](https://packagephobia.com/result?p=ezberlenen-parola) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/kaanguru/ezberlenen-parola/main.yml) ![GitHub language count](https://img.shields.io/github/languages/count/kaanguru/ezberlenen-parola) ![NPM Type Definitions](https://img.shields.io/npm/types/ezberlenen-parola)
+[![install size](https://packagephobia.com/badge?p=ezberlenen-parola)](https://packagephobia.com/result?p=ezberlenen-parola) ![GitHub language count](https://img.shields.io/github/languages/count/kaanguru/ezberlenen-parola) ![NPM Type Definitions](https://img.shields.io/npm/types/ezberlenen-parola)
 
 ---
 
